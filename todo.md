@@ -1,5 +1,5 @@
-1. Project is configured to run Prettier on commit
-2. Project is configured to run ESLint on commit
+1. Project is configured to run Prettier on commit DONE
+2. Project is configured to run ESLint on commit DONE
 3. Project is configured to run Jest on commit
 4. Project is configured to deploy to pages on merge to default
    The following file changes are required:
