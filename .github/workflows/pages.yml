@@ -2,7 +2,7 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on closed merges to the default branch
   pull_request_target:
     types:
       - closed
