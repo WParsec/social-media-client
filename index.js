@@ -3,7 +3,3 @@ import ui from "./ui/index.js";
 
 ui();
 router();
-
-export function test() {
-  console.log("Works");
-}
