@@ -2,10 +2,9 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on closed merges to the default branch
-  pull_request_target:
-    types:
-      - closed
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,8 +22,10 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  if_merged:
-    if: github.event.pull_request.merged == true
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
