@@ -1,4 +1,5 @@
 import { login } from "./login";
+import { LocalStorageMock } from "../../__mock__/localStorage.mock";
 
 // The login function returns a valid token when provided with valid credentials
 
@@ -13,6 +14,8 @@ function fetchSuccess() {
     json: () => Promise.resolve(VALID_TOKEN),
   });
 }
+
+global.localStorage = new LocalStorageMock();
 
 describe("Login function", () => {
   it("returns a valid token when provided with valid credentials", async () => {
