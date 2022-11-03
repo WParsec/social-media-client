@@ -1,7 +1,7 @@
 1. Project is configured to run Prettier on commit DONE
 2. Project is configured to run ESLint on commit DONE
 3. Project is configured to run Jest on commit DONE
-4. Project is configured to deploy to pages on merge to default
+4. Project is configured to deploy to pages on merge to default DONE
    The following file changes are required:
 5. Project readme file is updated to include new configuration information and status badges
 6. Project is configured for hosting (e.g. CDN links or a Bundler)
