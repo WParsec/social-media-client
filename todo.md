@@ -9,7 +9,7 @@
    The following features must be automatically tested with unit tests:
 
 7. The login function returns a valid token when provided with valid credentials DONE
-8. The logout function clears the token from browser storage
+8. The logout function clears the token from browser storage DONE
 9. The create item function creates a new item on the API
    The following features must be automatically tested with end-to-end tests:
 10. The login form validates user inputs correctly based on API restrictions
