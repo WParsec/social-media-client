@@ -13,7 +13,7 @@
           "rules": { "jest/prefer-expect-assertions": "off", "no-undef": "off" }
         },
         {
-          "files": ["**/*.cy.js"],
+          "files": ["**/*.cy.js", "**/*.config.js"],
           "env": { "cypress/globals": true },
           "plugins": ["cypress"],
           "extends": ["plugin:cypress/recommended"],
