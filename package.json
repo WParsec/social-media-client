@@ -9,9 +9,10 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "prepare": "husky install",
     "lint-fix": "eslint --fix",
-    "test": "npm run test-unit",
+    "test": "npm run test-unit && npm run test-e2e-run",
     "test-unit": "jest",
-    "test-e2e": "cypress open"
+    "test-e2e": "cypress open",
+    "test-e2e-run": "cypress run"
   },
   "keywords": [],
   "author": "",
