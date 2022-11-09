@@ -1,8 +1,8 @@
 # Social media platform
 
-# Changes
+## Changes
 
-Installed dependencies:
+#### Dependencies:
 
 - Prettier
 - Eslint
@@ -14,7 +14,7 @@ Installed dependencies:
 
 Project is configured to run formatting with prettier and testing with JEST on commit and merge to default.
 
-# Installing
+## Installing
 
 1. Clone the repo:
 
