@@ -12,7 +12,16 @@
 - Cypress
 - SASS
 
-Project is configured to run formatting with prettier and testing with JEST on commit and merge to default.
+#### Project is configured to run the following on commit
+
+- Prettier Formatting
+- Eslint formatting
+
+#### Project is configured to run the following on pull_request to master branch
+
+- Unit testing with JEST
+- E2E testing with Cypress
+- Deploy to github pages
 
 ## Installing
 
