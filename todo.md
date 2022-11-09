@@ -12,6 +12,7 @@
 8. The logout function clears the token from browser storage DONE
 9. The create item function creates a new item on the API DONE
    The following features must be automatically tested with end-to-end tests:
+
 10. The login form validates user inputs correctly based on API restrictions DONE
-11. The create item form validates user inputs correctly based on API restrictions
-12. The logout button logs the user out when clicked
+11. The create item form validates user inputs correctly based on API restrictions DONE
+12. The logout button logs the user out when clicked DONE
