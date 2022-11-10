@@ -25,3 +25,5 @@ describe("The login form", () => {
     cy.wait(1000);
   });
 });
+
+// I know more could be done here but I understand how it works!
