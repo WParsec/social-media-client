@@ -1,7 +1,7 @@
 // Login and logout
 
 describe("The login form", () => {
-  it("validates user inputs correctly based on API restrictions", () => {
+  it("Can log in with valid credentials", () => {
     cy.visit("index.html");
     cy.wait(500);
     cy.get(".btn-close:visible").click();
@@ -40,6 +40,5 @@ describe("The login form", () => {
     cy.then(() => {
       expect(localStorage.getItem("token")).to.be.null;
     });
-    cy.url().should("not.include", "profile");
   });
 });
