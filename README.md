@@ -2,6 +2,24 @@
 
 ## Changes
 
+#### New files
+
+- .github/workflow/ 3 files
+  e2e-testing.yml
+  pages.yml
+  unit-testing.yml
+- eslintrc.json
+- .gitignore
+- babel.config.json
+- cypress.config.json
+- package.json
+- package-lock.json
+- cypress folder
+- localStorage.mock.js
+- login.test.js
+- logout.test.js
+- create.test.js
+
 #### Dependencies:
 
 - Prettier
@@ -27,6 +45,6 @@
 
 1. Clone the repo:
 
-2. Initialize git - Install dependencies
+2. Initialize git and install dependencies with command "npm i"
 
-3. Enter npm run start in command line
+3. Enter "npm run start" in command line
