@@ -10,6 +10,7 @@
     "prepare": "husky install",
     "lint-fix": "eslint --fix",
     "test-unit": "jest",
+    "test:staged": "jest --bail --findRelatedTests",
     "test": "npm run test-unit && npm run test-e2e-cli",
     "test-e2e": "cypress open",
     "test-e2e-report": "cypress run --reporter mochawesome",
@@ -36,6 +37,9 @@
     "bootstrap-dark-5": "^1.1.3"
   },
   "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "npm run test:staged"
+    ],
     "*.js": [
       "prettier --write",
       "eslint --fix"
