@@ -38,7 +38,10 @@
 #### Project is configured to run the following on pull_request to master branch
 
 - Unit testing with JEST
+  [![Automated Unit Testing](https://github.com/WParsec/social-media-client/actions/workflows/unit-testing.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/unit-testing.yml)
+
 - E2E testing with Cypress
+
 - Deploy to github pages
 
 ## Installing
