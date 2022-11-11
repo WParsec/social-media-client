@@ -43,6 +43,7 @@
 - E2E testing with Cypress
 
 - Deploy to github pages
+  [![Deploy static content to Pages](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml)
 
 ## Installing
 
