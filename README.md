@@ -19,6 +19,7 @@
 - login.test.js
 - logout.test.js
 - create.test.js
+- README.md
 
 #### Dependencies:
 
