@@ -42,6 +42,7 @@
   [![Automated Unit Testing](https://github.com/WParsec/social-media-client/actions/workflows/unit-testing.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/unit-testing.yml)
 
 - E2E testing with Cypress
+  [![Automated E2E Testing](https://github.com/WParsec/social-media-client/actions/workflows/e2e-testing.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/e2e-testing.yml)
 
 - Deploy to github pages
   [![Deploy static content to Pages](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml)
