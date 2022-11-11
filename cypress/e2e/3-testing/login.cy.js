@@ -34,7 +34,9 @@ describe("The login form", () => {
     cy.get("input[type='email']:visible")
       .should("be.visible")
       .type("bademail@ballsack.no");
-    cy.get("input[type='password']:visible").should("be.visible").type("balls");
+    cy.get("input[type='password']:visible")
+      .should("be.visible")
+      .type("badpassword");
     cy.get(".btn-success:visible").click();
     cy.wait(2000);
     cy.then(() => {
