@@ -1,6 +1,6 @@
 import { apiPath } from "../constants.js";
 import { headers } from "../headers.js";
-// import { save } from '../../storage/index.js'
+import { save } from "../../storage/index.js";
 
 export async function login(email, password) {
   const response = await fetch(`${apiPath}/social/auth/login`, {
@@ -11,9 +11,9 @@ export async function login(email, password) {
 
   if (response.ok) {
     const profile = await response.json();
-    // save("token", profile.accessToken)
-    // delete profile.accessToken
-    // save("profile", profile)
+    save("token", profile.accessToken);
+    delete profile.accessToken;
+    save("profile", profile);
     return profile;
   }
 
