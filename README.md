@@ -43,6 +43,7 @@
 
 - E2E testing with Cypress
   [![Automated E2E Testing](https://github.com/WParsec/social-media-client/actions/workflows/e2e-testing.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/e2e-testing.yml)
+  Test fails due to an unhandled error when entering incorrect credentials in login form. The error should be caught in a catch block to prevent this.
 
 - Deploy to github pages
   [![Deploy static content to Pages](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/WParsec/social-media-client/actions/workflows/pages.yml)
