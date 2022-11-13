@@ -31,10 +31,11 @@
 - Cypress
 - SASS
 
-#### Project is configured to run the following on commit
+#### Project is configured to run the following on commit as pre-commit hook
 
 - Prettier Formatting
 - Eslint formatting
+- On changed .test files - Will also run jest as a pre-commit hook
 
 #### Project is configured to run the following on pull_request to master branch
 
@@ -55,3 +56,40 @@
 2. Initialize git and install dependencies with command "npm i"
 
 3. Enter "npm run start" in command line
+
+## Testing
+
+### All tests
+
+Both unit testing and E2E testing can be run in the terminal with one command:
+
+```
+$ npm run test
+```
+
+### Unit Test
+
+Unit testing is done in the terminal using the following command:
+
+```
+$ npm run unit-test
+```
+
+A successful test will display a green success symbol.
+A failed test will display a red failure symbol.
+
+### E2E Test
+
+This can be done either in terminal or through cypress interface:
+
+For testing in terminal write the following in command line:
+
+```
+$ npm run test-e2e-cli
+```
+
+For testing in cypress interface write the following in command line:
+
+```
+$ npm run test-e2e
+```
